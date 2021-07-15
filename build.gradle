@@ -58,7 +58,7 @@ checkstyle {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "applibgroup_ohos_lite_go"
+        property "sonar.projectKey", "applibgroup_ohos-lite-go"
         property "sonar.organization", "applibgroup"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.sources", "entry,ohos_lite_go"
