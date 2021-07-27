@@ -41,6 +41,13 @@ You can define a strategy for processing new requests after the waiting queue is
 	}
 
 ```
+3. For using LiteGo from a remote repository in separate application, add the below dependencies in entry/build.gradle file.
+```
+	dependencies {
+		implementation 'dev.applibgroup.ohoslitego:1.0.0'
+        	testCompile 'junit:junit:4.12'
+	}
+```
 
 ## Usage
 Example:
